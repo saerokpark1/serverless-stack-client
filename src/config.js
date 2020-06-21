@@ -1,12 +1,13 @@
 export default {
   MAX_ATTACHMENT_SIZE: 5000000,
+  STRIPE_KEY: "	pk_test_51Gs1j5CuXjSgfXdZVxT9ds0DiiBVfmoAUVUZLhk7EpVPcHUFlPGYjM6eitdTKHWNWQJsWPzwmjlDTFuE2j5FqYhr00EEhvglPH",
   s3: {
     REGION: "us-east-1",
     BUCKET: "notes-app-uploads-sarah"
   },
   apiGateway: {
     REGION: "us-east-1",
-    URL: "https://ldfcdpruw9.execute-api.us-east-1.amazonaws.com/prod/"
+    URL: "https://ldfcdpruw9.execute-api.us-east-1.amazonaws.com/prod"
   },
   cognito: {
     REGION: "us-east-1",
